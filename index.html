@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Solution</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <header id="topo">
+        <h1>ME 020 | Global Solution</h1>
+        <nav>
+            <ul>
+                <li></li>
+                <li><a href="#tech">Tecnologia</a></li>
+                <li><a href="#o_problema">O problema</a></li>
+                <li><a href="#obj">Objetivo</a></li>
+                <li><a href="#participe">Participe</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bem-vindo" id="banner">
+        <div class="arrow-down">
+            <span id="line"></span>
+            <div class="bemvindo-text">
+                <p>Junte-se a nós na preservação dos oceanos e na construção de um futuro mais sustentável.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <main>
+        <section class="conteudo1" id="tech">
+            <div class="container1">
+                <img class="img_ling" src="src/img/linguagens.png" alt="">
+                <div class="text1">
+                    <h2>O USO DA TECNOLOGIA</h2>
+                    <p>Usaremos as principais linguagens de programação (HTML, CSS, JavaScript) para o nosso desafio sobre vida marinha porque elas são acessíveis, versáteis e adequadas para criar uma plataforma envolvente e educativa.</p>
+                </div>
+            </div>
+            <div class="container2" id="o_problema">
+                <img class="img_wave" src="src/img/mar.png" alt="O Problema">
+                <div class="text2">
+                    <h2>O Problema</h2>
+                    <p>O principal problema é a falta de informação sobre a situação dos oceanos nos dias atuais.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="objetivos" id="obj">
+            <div class="flex-item1">
+                <img src="src/img/iconwave.png" alt="Nosso Objetivo">
+                <h3>Nosso Objetivo</h3>
+                <p>O nosso objetivo é fazer com que as pessoas saibam sobre a situação dos oceanos e assim orientando as pessoas em como não poluir os oceanos.</p>
+            </div>
+            <div class="flex-item2">
+                <img src="src/img/peopleicon.png" alt="Público Impactado">
+                <h3>Público Impactado</h3>
+                <p>O principal público impactado será as pessoas que vivem nas áreas costeiras e os trabalhadores locais afetados pela poluição marinha.</p>
+            </div>
+            <div class="flex-item3">
+                <img src="src/img/globalicon.png" alt="Benefícios">
+                <h3>Benefícios</h3>
+                <p>O principal benefício será a preservação sustentável dos oceanos. Além de amenizar as chances de desastres naturais.</p>
+            </div>
+            <div class="flex-item4">
+                <img src="src/img/notificationicon.png" alt="No dia a dia">
+                <h3>No dia a dia</h3>
+                <p>Com as informações do nosso site, as pessoas podem sempre estarem ligadas nas notícias sobre o estado de saúde dos oceanos.</p>
+            </div>
+        </section>
+
+        <section class="participar" id="participe">
+            <img src="src/img/people.png" alt="Participar">
+            <div class="participar-item">
+                <h2>Você também pode participar</h2>
+                <p>Colabore com nossas campanhas para preservar os oceanos! Reduza o uso de plástico, participe de limpezas de praias, promova a reciclagem, compartilhe informações e apoie tecnologias sustentáveis. Juntos, podemos proteger nossos oceanos e construir um futuro mais sustentável.</p>
+            </div>
+            <div class="form-container">
+                <h2>Cadastre-se para mais informações</h2>
+                <form id="registrationForm">
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email" required>
+                    <span class="error" id="emailError"></span>
+        
+                    <label for="phone">Celular:</label>
+                    <input type="text" id="phone" name="phone" required>
+                    <span class="error" id="phoneError"></span>
+        
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="stats">
+            <div onmouseover="medidas()">
+                <div class="stat-item">
+                    <span id="contador1"></span>
+                    <p>Pessoas Impactadas</p>
+                </div>
+            </div>
+            <div onmouseover="medidas()">
+                <div class="stat-item">
+                    <span id="contador2"></span>
+                    <p>Projetos Realizados</p>
+                </div>
+            </div>
+            <div onmouseover="medidas()">
+                <div class="stat-item">
+                    <span id="contador3"></span>
+                    <p>Kg de Lixo Coletados</p>
+                </div>
+            </div>
+            <div onmouseover="medidas()">
+                <div class="stat-item">
+                    <span id="contador4"></span>
+                    <p>Parceiros Envolvidos</p>
+                </div>
+            </div>
+        </section>
+
+        <a href="#topo"><button class="btn">Voltar ao Topo</button></a>
+            
+    </main>
+
+    <script src="./src/javascript.js"></script>
+
+    <footer>
+        <p>@2024 - COPYRIGHT</p>
+    </footer>
+
+</body>
+</html>

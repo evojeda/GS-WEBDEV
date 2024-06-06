@@ -1,4 +1,4 @@
-alert("Bem Vindo")
+alert("Bem Vindo");
 
 function medidas(){
     const contador1 = document.getElementById("contador1");
@@ -104,7 +104,7 @@ const slideShow = () => {
     setTimeout(() => {
         banner.style.transition = 'opacity 1s';
         banner.style.opacity = '1';
-        banner.style.background = url(${images[indexSlide]}) no-repeat center center/cover;
+        banner.style.background = `url(${images[indexSlide]}) no-repeat center center/cover`;
     }, 350);
 
     indexSlide++;
